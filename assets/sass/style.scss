@@ -16,6 +16,12 @@ body::-webkit-scrollbar-thumb {
   background-color: #7b7a90;
 }
 
+.content {
+  display: flex;
+  width: 90%;
+  // background-color: red;
+  align-items: center;
+}
 
 //<-- ______HEADER______ -->//
 .header {
@@ -25,6 +31,27 @@ body::-webkit-scrollbar-thumb {
   position: sticky;
   top: 0;
   border-bottom: 2px solid #832098;
+  justify-content: center;
+  &__logo { //headerLogoSTART
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }; //headerLogoEND
+  &__navLeft { //navLeftSTART
+    display: inline;
+  }; //navLeftEND
+  .leftNavBtn { //leftNavBtnSTART
+    text-decoration: none;
+    color: #b99abf;
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    &:hover {
+      color: white;
+    }
+  }; //leftNavBtnEND
 }
 
 
