@@ -107,6 +107,7 @@ body::-webkit-scrollbar-thumb {
   font-family: "Caesar Dressing";
   font-size: 1.3rem;
   padding-top: 1rem;
+  text-decoration: none;
 }
 .leftPart .buttons .getStarted {
   color: #7952b3;
