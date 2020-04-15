@@ -39,19 +39,34 @@ body::-webkit-scrollbar-thumb {
   }; //headerLogoEND
   &__navLeft { //navLeftSTART
     display: inline;
+    .leftNavBtn { //leftNavBtnSTART
+      text-decoration: none;
+      color: #b99abf;
+      font-size: 1rem;
+      margin-left: 5px;
+      margin-right: 5px;
+      font-weight: 400;
+      font-family: 'Roboto';
+      &:hover {
+        color: white;
+      }
+    }; //leftNavBtnEND
   }; //navLeftEND
-  .leftNavBtn { //leftNavBtnSTART
-    text-decoration: none;
-    color: #b99abf;
-    font-size: 1rem;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-weight: 400;
-    font-family: 'Roboto';
-    &:hover {
-      color: white;
-    }
-  }; //leftNavBtnEND
+  &__navRight { //navRightSTART
+    display: flex;
+    margin-left: auto;
+    .version { //versionSTART
+      color: #b99abf;
+      font-family: 'Roboto';
+      margin-left: 5px;
+      margin-right: 5px;
+    }; //versionEND
+    .links { //linksSTART
+      width: 16px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }; //linksEND
+  }; //navRightEND
 }
 
 

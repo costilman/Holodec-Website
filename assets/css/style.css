@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb {
 .header__navLeft {
   display: inline;
 }
-.header .leftNavBtn {
+.header__navLeft .leftNavBtn {
   text-decoration: none;
   color: #b99abf;
   font-size: 1rem;
@@ -49,8 +49,23 @@ body::-webkit-scrollbar-thumb {
   font-weight: 400;
   font-family: "Roboto";
 }
-.header .leftNavBtn:hover {
+.header__navLeft .leftNavBtn:hover {
   color: white;
+}
+.header__navRight {
+  display: flex;
+  margin-left: auto;
+}
+.header__navRight .version {
+  color: #b99abf;
+  font-family: "Roboto";
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.header__navRight .links {
+  width: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .main {
